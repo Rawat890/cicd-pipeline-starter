@@ -6,7 +6,7 @@ app.get('/', (_request, response) => {
   const version = process.env.APP_VERSION ?? 'development';
 
   response.type('html').send(`
-    <h1>Hello world</h1>
+    <h1>Hello world Text</h1>
     <h1>CI/CD Lab</h1>
     <p>Verified by GitHub Actions. Deployed on Render.</p>
     <p>Version ${version}</p>
