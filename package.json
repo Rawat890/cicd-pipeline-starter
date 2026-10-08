@@ -2,7 +2,7 @@
   "name": "cicd-pipeline",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/server.js",
   "engines": {
     "node": "24.x"
   },
